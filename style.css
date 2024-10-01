@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Header Section */
+.Title {
+  background-color: black;
+  padding: 1px;
+  display: inline-flex;
+}
+.Title h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+span {
+  background-color: orange;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+}
+header {
+  background-color: black;
+}
+/* Main */
+.Main-Content {
+  margin-left: 50px;
+}
+.Main-Content h1 {
+  font-size: 50px;
+  font-family: Poppins;
+}
+.Plans {
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+}
+.item-title {
+  text-align: center;
+}
+/* Plan item */
+.plan-item {
+  width: 400px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(196, 188, 84, 1) 74%,
+    rgba(203, 188, 80, 1) 77%,
+    rgba(216, 188, 71, 1) 83%,
+    rgba(216, 188, 71, 1) 83%,
+    rgba(229, 187, 62, 1) 89%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+p {
+  font-size: 20px;
+}
+@media (max-width: 1250px) {
+  .Plans {
+    flex-direction: column;
+    height: auto;
+
+    align-items: center;
+  }
+}
