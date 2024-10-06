@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #ff7b00d7;
 }
 /* Header Section */
 .Title {
@@ -48,13 +49,13 @@ header {
   background: rgb(34, 193, 195);
   background: linear-gradient(
     0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(196, 188, 84, 1) 74%,
-    rgba(203, 188, 80, 1) 77%,
-    rgba(216, 188, 71, 1) 83%,
-    rgba(216, 188, 71, 1) 83%,
-    rgba(229, 187, 62, 1) 89%,
-    rgba(253, 187, 45, 1) 100%
+    #22c1c3 0%,
+    #c4bc54 74%,
+    #cbbc50 77%,
+    #d8bc47 83%,
+    #d8bc47 83%,
+    #e5bb3e 89%,
+    #fdbb2d 100%
   );
 }
 
